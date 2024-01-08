@@ -1,0 +1,65 @@
+body {
+    background-color: hsla(60, 1%, 82%, 0.456);
+}
+
+.box {
+    width: 300px;
+  border-bottom: 20px solid #03a9f4;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box h2 {
+    color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box ul:hover li {
+    opacity: 0.2;
+}
+
+.headline {
+    font-size: 45px;
+    font-weight: bold;
+    color: hsl(215, 100%, 57%);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.recipes {
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    padding: 1.5rem 1.5rem 1.5rem 4em;
+	border: 0.3rem solid rgb(230, 77, 50);
+	columns: 25rem;
+	column-gap: 7rem;
+	column-rule: 4px dotted turquoise;
+	border-radius: 0.5rem;
+}
+
+ol {
+    padding: 1.5rem 1.5rem 1.5rem 4em;
+	border: 0.3rem solid rgb(230, 77, 50);
+	columns: 25rem;
+	column-gap: 7rem;
+	column-rule: 4px dotted turquoise;
+	border-radius: 0.5rem;
+}
+
+.ingredients {
+
+}
